@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "友链交换站",
+    "description": "以下为收录站点，如需加入可在 GitHub 提交 PR。"
+  },
+  "categories": [
+    { "id": "life",   "label": "生活博客", "icon": "🌿" },
+    { "id": "tech",   "label": "技术博客", "icon": "💻" },
+    { "id": "design", "label": "设计创意", "icon": "🎨" },
+    { "id": "photo",  "label": "摄影记录", "icon": "📷" },
+    { "id": "open",   "label": "开源项目", "icon": "🔧" }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "name": "小聂的窝",
+      "url": "https://xiaonie.me/",
+      "avatar": "https://xiaonie.me/upload/logo.webp",
+      "description": "一个简单纯粹的个人分享空间",
+      "category": "life",
+      "color": "#00FF7F",
+      "bg": "https://picui.ogmua.cn/s1/2026/04/06/69d36dc8b180c.webp"
+    }
+   
+  ]
+}
