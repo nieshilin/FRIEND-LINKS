@@ -5,7 +5,7 @@
 ![预览1](yulan1.png)
 ![预览2](yulan2.png)
 
-**在线预览：** [https://nieshilin.github.io/FRIEND-LINKS](https://nieshilin.github.io/FRIEND-LINKS)
+**在线预览：** [https://links.xiaonie.me/](https://links.xiaonie.me/)
 
 ---
 
