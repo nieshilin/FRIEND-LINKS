@@ -1,8 +1,11 @@
-# 🔗 友情链接仓库
+# 🔗 友链交换站
 
 > 一个用 JSON 驱动、纯静态前端展示的友情链接收录仓库。
 
-**在线预览：** [https://YOUR_USERNAME.github.io/YOUR_REPO](https://YOUR_USERNAME.github.io/YOUR_REPO)
+![预览1](yulan1.png)
+![预览2](yulan2.png)
+
+**在线预览：** [https://nieshilin.github.io/FRIEND-LINKS](https://nieshilin.github.io/FRIEND-LINKS)
 
 ---
 
@@ -28,21 +31,11 @@
 └── CONTRIBUTING.md  # 详细贡献指南
 ```
 
----
 
-## 🖼 友链展示效果
-
-- ✅ 卡片式网格布局，支持响应式
-- ✅ 亮色 / 暗色 / 跟随系统三种主题
-- ✅ 按标签筛选 + 实时搜索
-- ✅ 头像懒加载 + 加载失败降级
-- ✅ 骨架屏加载动画
-
----
 
 ## ✍️ 如何申请友链
 
-### 方式一：提交 Issue（推荐新手）
+### 提交 Issue（推荐新手）
 
 点击 [👉 提交友链 Issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new?template=friend-link.md) 并填写以下信息：
 
@@ -54,11 +47,8 @@
 分类标签：博客, 技术（从现有标签中选，最多3个）
 ```
 
-> 我会在收到 Issue 后 **3 个工作日内**处理，添加后关闭 Issue。
-
 ---
 
-### 方式二：提交 Pull Request（推荐有 Git 经验的朋友）
 
 #### 第一步：Fork 本仓库
 
@@ -76,7 +66,8 @@
   "avatar": "https://your-site.com/avatar.png",
   "description": "一句话介绍你的站点，30字以内。",
   "category": "life",
-  "color": "#6366f1"
+  "color": "#6366f1",
+  "bg": "https://your-site.com/bg.png"
 }
 ```
 
@@ -173,51 +164,6 @@
 
 ---
 
-## 💻 本地预览
-
-本项目纯静态，**不需要任何构建工具**。
-
-```bash
-# 方式 1：使用 Python 内置服务器（推荐）
-python -m http.server 8080
-# 访问 http://localhost:8080
-
-# 方式 2：使用 Node.js
-npx serve .
-# 访问 http://localhost:3000
-
-# 方式 3：VS Code 安装 Live Server 扩展后右键 index.html → Open with Live Server
-```
-
-> ⚠️ 直接双击 `index.html` 在浏览器打开可能因 CORS 无法加载 `links.json`，请使用本地服务器。
-
----
-
-## 🚀 自部署说明
-
-### 部署到 GitHub Pages（免费）
-
-1. Fork 本仓库
-2. 进入仓库 **Settings → Pages**
-3. Source 选择 `Deploy from a branch`，Branch 选 `main`，目录选 `/ (root)`
-4. 保存，等待约 1 分钟，访问 `https://你的用户名.github.io/仓库名`
-
-### 部署到 Vercel / Netlify
-
-直接将仓库连接到 Vercel 或 Netlify，无需任何配置，自动部署。
-
----
-
-## 🚫 友链撤除规则
-
-以下情况我们将移除该友链，不另行通知：
-
-- ❌ 站点无法访问超过 **30 天**
-- ❌ 站点内容涉及违法、色情、赌博等不良信息
-- ❌ 站点长期无实质内容更新（超过 **1 年**）
-- ❌ 对方主动要求撤除
-
----
 
 ## 📄 License
 
