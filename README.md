@@ -37,7 +37,7 @@
 
 ### 提交 Issue（推荐新手）
 
-点击 [👉 提交友链 Issue](https://github.com/YOUR_USERNAME/YOUR_REPO/issues/new?template=friend-link.md) 并填写以下信息：
+点击 [👉 提交友链 Issue](https://github.com/nieshilin/FRIEND-LINKS/issues/new?template=friend-link.md) 并填写以下信息：
 
 ```
 站点名称：我的博客
@@ -167,6 +167,6 @@
 
 ## 📄 License
 
-[MIT](./LICENSE) © 2026 YOUR_USERNAME
+[MIT](./LICENSE) © 2026 nieshilin
 
 欢迎 Star ⭐ 支持本项目！
